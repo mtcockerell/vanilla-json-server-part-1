@@ -1,56 +1,24 @@
 {
-  "users": [
-    {
-      "username": "John.x.Doe",
-      "age": 32,
-      "favourite_music_genre": "Jazz",
-      "preferred_programming_language": "Javascript",
-      "best_frontend_framework": "Vue",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "username": "SniperxXx",
-      "age": 23,
-      "favourite_music_genre": "Rap",
-      "preferred_programming_language": "Python",
-      "best_frontend_framework": "React"
-    }
-  ],
-  "polls": [
-    {
-      "question": "Favourite Music Genre?",
-      "options": [
-        "Rock",
-        "Pop",
-        "Country",
-        "Rap",
-        "Jazz",
-        "Hip Hop",
-        "RNB",
-        "None",
-        "Depends"
-      ]
-    },
-    {
-      "question": "Preferred Programming Language?",
-      "options": [
-        "Java",
-        "C",
-        "C++",
-        "C#",
-        "Javascript",
-        "Python",
-        "Kotlin"
-      ]
-    },
-    {
-      "question": "Better Frontend JS Framework?",
-      "options": [
-        "React",
-        "Vue",
-        "Angular"
+  "profile": {
+    "code": 200,
+    "message": "Request success",
+    "type": "success",
+    "result": {
+      "firstName": "John",
+      "lastName": "Smith",
+      "age": 25,
+      "phone": "123-456-789",
+      "email": "b.wei@tcu.edu",
+      "avatar": "/images/john.jpg",
+      "permissions": [
+        "Director",
+        "SuperFrog",
+        "Customer"
       ]
     }
-  ]
+  },
+  "login": {
+    "account": "b.wei@tcu.edu",
+    "password": "123"
+  }
 }
